@@ -32,7 +32,9 @@ public class HomePageWindow extends JFrame{
 
         });
         this.controllerMainPageProcessing = controllerMainPageProcessing;
-        //operationChoiceWindow = new OperationChoiceWindow(operationChoiceController);
+        this.add(btnAuthorization);
+        this.add(btnCancel);
+
 
     }
 
